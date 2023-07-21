@@ -11,14 +11,14 @@ export default function NavMenu() {
     return (
         <nav
             className={
-                'flex bg-white text-gray-800 font-bold h-[70px] justify-between items-center px-8'
+                'flex bg-white-100 text-tertiary h-[70px] justify-between items-center px-8'
             }
         >
             <Link href={'/'}>
                 <Image
-                    src='/next.svg' // Route of the image file
-                    width={216}
-                    height={30}
+                    src='/logo.svg'
+                    width={50}
+                    height={50}
                     alt='NextSpace Logo'
                 />
             </Link>
@@ -26,7 +26,7 @@ export default function NavMenu() {
                 {navigation.map((item) => (
                     <Link
                         className={
-                            'transition ease-in-out delay-150 hover:text-gray-400'
+                            'transition ease-in-out delay-150 hover:text-primary'
                         }
                         href={item.href}
                         key={item.name}
