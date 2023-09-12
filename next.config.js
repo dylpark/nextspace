@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        domains: ['avatars.githubusercontent.com'], // Host name was causing an error on sign in.
+    },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

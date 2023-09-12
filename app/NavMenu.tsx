@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { SignInButton, SignOutButton } from '@/components/buttons';
+import AuthCheck from '@/components/AuthCheck';
 
 const navigation = [
     { name: 'About', href: '/about' },
@@ -34,6 +36,10 @@ export default function NavMenu() {
                         {item.name}
                     </Link>
                 ))}
+                <SignInButton />
+                <AuthCheck>
+                    <SignOutButton />
+                </AuthCheck>
             </div>
         </nav>
     );
