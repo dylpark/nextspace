@@ -1,16 +1,16 @@
 Simple Social Media Platform inspired by sites like MySpace and Facebook where users can befriend each other. The goal of this project is to build knowledge on Next’s rendering, data-fetching, and caching strategies. taking things a notch up from a beginner full stack project with Node.js.
 
-   📚 Design patterns with React Server Components (RSC)
-   
-   💎 How to choose optimal rendering strategies
-   
-   🚅 Dynamic routing and project organization
-   
-   🔥 Advanced data fetching and caching
-   
-   👲 User authentication with Auth.js
-   
-   📅 Data modeling with Postgres and Primsa
+📚 Design patterns with React Server Components (RSC)
+
+💎 How to choose optimal rendering strategies
+
+🚅 Dynamic routing and project organization
+
+🔥 Advanced data fetching and caching
+
+👲 User authentication with Auth.js
+
+📅 Data modeling with Postgres and Primsa
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -18,12 +18,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
-```bash
+```zsh
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
+```
+
+To run migrations:
+
+```zsh
+npx prisma migrate dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -36,8 +42,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
