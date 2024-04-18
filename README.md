@@ -1,4 +1,4 @@
-Simple Social Media Platform inspired by sites like MySpace and Facebook where users can befriend each other. The goal of this project is to build knowledge on Next’s rendering, data-fetching, and caching strategies. taking things a notch up from a beginner full stack project with Node.js.
+Simple Social Media Platform inspired by sites like MySpace and Facebook where users can befriend each other. The goal of this project is to build knowledge on Next’s rendering, data-fetching, and caching strategies.
 
 📚 Design patterns with React Server Components (RSC)
 
