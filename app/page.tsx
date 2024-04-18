@@ -8,5 +8,9 @@ export default async function Home() {
         redirect('/api/auth/signin');
     }
 
-    return <main className='flex min-h-screen flex-col p-8 lg:p-24'>test</main>;
+    return (
+        <main className='flex min-h-screen flex-col p-8 lg:p-24'>
+            Authenticated content
+        </main>
+    );
 }
