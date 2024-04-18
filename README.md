@@ -1,4 +1,7 @@
-Simple Social Media Platform inspired by sites like MySpace and Facebook where users can befriend each other. The goal of this project is to build knowledge on Next’s rendering, data-fetching, and caching strategies. taking things a notch up from a beginner full stack project with Node.js.
+Current progress on the Users page:
+<img width="1440" alt="Screenshot 2024-04-18 at 10 59 21 PM" src="https://github.com/dylpark/nextspace/assets/64296934/50e4612b-9f0b-4ae8-be67-e0f5ce3196b4">
+
+Simple Social Media Platform inspired by sites like MySpace and Facebook where users can befriend each other. The goal of this project is to build knowledge on Next’s rendering, data-fetching, and caching strategies.
 
 📚 Design patterns with React Server Components (RSC)
 
