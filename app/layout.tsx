@@ -35,7 +35,9 @@ export default function RootLayout({
             <html lang='en'>
                 <body className={roboto_mono.className}>
                     <NavMenu />
-                    {children}
+                    <main className='flex min-h-screen flex-col p-8 lg:p-24'>
+                        {children}
+                    </main>
                 </body>
             </html>
         </AuthProvider>

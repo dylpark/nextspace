@@ -31,9 +31,9 @@ export default async function BlogPostPage({ params }: Props) {
     const post = posts.find((post) => post.slug === params.slug)!;
 
     return (
-        <main className='flex min-h-screen flex-col p-8 lg:p-24'>
+        <>
             <h1 className='text-2xl'>{post.title}</h1>
             <p className='my-2'>{post.content}</p>
-        </main>
+        </>
     );
 }

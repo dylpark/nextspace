@@ -18,7 +18,7 @@ export default async function UserProfile({ params }: Props) {
     const { name, bio, image } = user ?? { name: null, bio: null, image: null };
 
     return (
-        <div className='flex min-h-screen flex-col p-8 lg:p-24'>
+        <>
             <h1 className='text-2xl'>{name}</h1>
             <img
                 width={300}
@@ -27,6 +27,6 @@ export default async function UserProfile({ params }: Props) {
             />
             <h3 className='text-xl'>Bio</h3>
             <p className='text-body'>{bio}</p>
-        </div>
+        </>
     );
 }
