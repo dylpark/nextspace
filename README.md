@@ -1,6 +1,13 @@
 Current progress on the Users page:
 <img width="1440" alt="Screenshot 2024-04-18 at 10 59 21 PM" src="https://github.com/dylpark/nextspace/assets/64296934/50e4612b-9f0b-4ae8-be67-e0f5ce3196b4">
 
+ToDo List:
+- Follower system: Add an endpoint to create relational data (`POST`, `DELETE`, `followerId`, `followingId`)
+- Follower system: Update Prisma schema for user followers
+- Follower system: Implement client-side UI for follow button
+- Server actions: Handle form submissions and automatically re-render the UI without a full page load
+- Server actions: Create a skeleton UI in the `loading.tsx` file.
+
 Simple Social Media Platform inspired by sites like MySpace and Facebook where users can befriend each other. The goal of this project is to build knowledge on Next’s rendering, data-fetching, and caching strategies.
 
 📚 Design patterns with React Server Components (RSC)
