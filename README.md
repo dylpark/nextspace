@@ -1,4 +1,6 @@
-NextSpace is mostly complete and functional. Just a few 'todos' left that would improve the performance.
+<img width="613" alt="Screenshot 2024-06-02 at 9 55 30 PM" src="https://github.com/dylpark/nextspace/assets/64296934/ea92ea0f-cb28-486e-a145-7b32fd25b0ef">
+
+This app puts React Server Components into practice by building a full-stack application from scratch with Next.js, PostgreSQL (Neon Serverless) and Prisma. The app is mostly complete as per my original goal of exploring this tech stack at a small scale. There's a few 'todos' below that would further improve performance.
 
 ToDo List:
 
