@@ -1,10 +1,7 @@
-Current progress on the Users page:
-<img width="1440" alt="Screenshot 2024-04-18 at 10 59 21 PM" src="https://github.com/dylpark/nextspace/assets/64296934/50e4612b-9f0b-4ae8-be67-e0f5ce3196b4">
+NextSpace is mostly complete and functional. Just a few 'todos' left that would improve the performance.
 
 ToDo List:
-- Follower system: Add an endpoint to create relational data (`POST`, `DELETE`, `followerId`, `followingId`)
-- Follower system: Update Prisma schema for user followers
-- Follower system: Implement client-side UI for follow button
+
 - Server actions: Handle form submissions and automatically re-render the UI without a full page load
 - Server actions: Create a skeleton UI in the `loading.tsx` file.
 
@@ -52,8 +49,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
